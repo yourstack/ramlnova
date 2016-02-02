@@ -1,0 +1,20 @@
+{{$r := .}}
+/**
+* Uri:{{.Uri}}
+* {{if .UriParameters}}{{range .UriParameters}}
+* @param {{.Type}} {{.DisplayName}}{{if .Default}} = .Default{{end}}{{if .Description}}
+* {{.Description}}{{end}}
+* {{end}}{{end}}
+* {{if .Description}}
+* Description:{{.Description}}{{end}}{{if .DisplayName}}
+* DisplayName:{{.DisplayName}}{{end}}
+*/
+
+{{range $i,$m := .Methods}}
+/**
+* Uri:{{$r.Uri}}{{if .Description}}
+* Description:{{.Description}}{{end}}{{if .DisplayName}}
+* DisplayName:{{.DisplayName}}{{end}}
+*/
+Route::{{.Name}}('{{$r.Uri}}'), '{{.DisplayName}}');
+{{end}}

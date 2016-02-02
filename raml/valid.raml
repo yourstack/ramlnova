@@ -1,0 +1,25 @@
+#%RAML 0.8
+title: ramlnova
+version: 1.0
+
+baseUri: http://github.com/anasinc/ramlnova
+documentation:
+  -  title: Overview
+
+/flarum:
+  /user:
+    description: Test API for the ramlnova package.
+    get:
+      displayName: getUser
+      description: 获得用户资料
+    post:
+      displayName: postUser
+      description: 提交用户资料
+    put:
+      displayName: putUser
+    patch:
+      displayName: patchUser
+    head:
+      displayName: headUser
+    delete:
+      displayName: deleteUser

@@ -22,3 +22,9 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# For ramlnova
+tmp
+tmp*
+raml/**/*
+!raml/valid.raml
