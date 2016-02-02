@@ -1,0 +1,12 @@
+<?php
+/**
+* routes.php
+*
+* 这里包括本api站点所有应用的访问URI路径及其关联Controller.
+*
+* @author ramlnova <github.com/anasinc/ramlnova>
+* @version 1.0
+*
+* Copyright © 2015 ANAS IT Inc. All Rights Reserved
+* Powered by ramlnova <https://github.com/anasinc/ramlnova>
+*/

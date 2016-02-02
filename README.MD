@@ -14,13 +14,25 @@ This is ramlnova generator for Multi-Language(Laravel5.2/golang/etc.) project.
 
 # Installation
 ``` 
-go get -u github.com/anasinc/ramlgen
+go get -u github.com/anasinc/ramlnova
 ```
 
 # FEATURES
 Main Features:
 
 - faster to generate static *.php/*.lang files
+
+- [x] Multi-Language template file support, [Guide](#Contributing).
+``` bash
+## template dictionary struct
+## .tp writing format guide, please views [Guide]
+./template
+  laravel5.2/
+    routeHead.tp
+    xxx.tp
+  golang/
+    xxx.tp
+```
 
 Powered by:
 
@@ -34,22 +46,15 @@ Compatibility:
 
 - [ ] Preliminary 1.0 support
 
-- [ ]Full 1.0 support
+- [ ] Full 1.0 support
 
 # Todolist
-FrameWork:
-- [x] Multi-Language template file support.
-``` bash
-## template dictionary struct
-./template
-  laravel5.2/
-    routeHead.tp
-    xxx.tp
-  golang/
-    xxx.tp
-```
+FrameWork Main Features:
+
 - [ ] Multi-User template account support.
+
 - [ ] Launch an RESTful APIs Server to Access.
+
 - [ ] Zip up the output project files to .zip/.tar.gz
 
 Laravel5.2:
