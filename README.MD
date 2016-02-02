@@ -20,9 +20,11 @@ go get -u github.com/anasinc/ramlnova
 # FEATURES
 Main Features:
 
-- faster to generate static *.php/*.lang files
+- [x] Generate RESTful APIs Server code, 自动生成RESTfulAPIs项目代码
 
-- [x] Multi-Language template file support, [Guide](#Contributing).
+- [x] 快速批量生成文件, faster to generate static *.php/*.lang files
+
+- [x] 多语言模板支持, Multi-Language template file support, [Guide](#Contributing).
 ``` bash
 ## template dictionary struct
 ## .tp writing format guide, please views [Guide]
@@ -33,6 +35,8 @@ Main Features:
   golang/
     xxx.tp
 ```
+
+- [ ] Sql-Orm Generator in Cloud, 云端设计生成数据库
 
 Powered by:
 
