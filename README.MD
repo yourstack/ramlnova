@@ -1,5 +1,5 @@
 # !Notice
-This Project still in Testing version.
+This Project still in Testing version 0.1.
 
 - **Don’t use it in production.** We can’t support you if things go awry. And upgrading to subsequent versions might involve getting your hands dirty.
 - **Report feedbacks responsibly.** Poorly written bug reports take time to deal with, distracting us from adding new features and making ramlnova stable.
