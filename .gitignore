@@ -28,3 +28,4 @@ tmp
 tmp*
 raml/**/*
 !raml/valid.raml
+api.raml

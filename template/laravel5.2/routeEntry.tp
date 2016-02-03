@@ -1,4 +1,4 @@
-{{$r := .}}
+{{$r := . }}{{/*声明$r为全局变量Resource*/}}
 /**
 * Uri:{{.Uri}}
 * {{if .UriParameters}}{{range .UriParameters}}

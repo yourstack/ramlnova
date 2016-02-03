@@ -76,12 +76,37 @@ Laravel5.2:
 
 
 # Contributing
+## Guide
 - template(.tp)
 Format Guide : text/template <https://gowalker.org/text/template>
 
 - Reporting Bugs by ISSUE
 
 - Waiting
+
+## Tech Trees
+General Language:
+- [raml](raml.org)
+- [golang](golang.org)
+- [php](php.net)
+- regular expression
+
+Golang Package:
+- [text/template](https://gowalker.org/text/template)
+- regexp
+- github.com/buddhamagnet/raml
+
+RESTful FrameWork:
+- [Laravel 5.2](laravel.com)
+
+Tools:
+- vim, vim-go
+- linux, better Debian jessie 8.2 or newer
+- nginx 
+
+Extra Skill:
+- shell
+- mysql 5.7+
 
 # Contributor
 

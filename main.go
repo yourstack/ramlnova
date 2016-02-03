@@ -73,6 +73,8 @@ func generate(api *raml.APIDefinition, genFile string) {
 	for uri, resource := range api.Resources {
 		generateRoute("", uri, &resource, r, f)
 	}
+	// Write the route group.
+	f.WriteString(templates["routeGroup"].Content)
 	//######### end of routes.php
 
 	//######### Controllers/xxx/xxx.php

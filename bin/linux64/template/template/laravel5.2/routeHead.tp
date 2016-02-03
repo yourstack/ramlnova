@@ -10,3 +10,15 @@
 * Copyright © 2015 ANAS IT Inc. All Rights Reserved
 * Powered by ramlnova <https://github.com/anasinc/ramlnova>
 */
+
+
+// Laravel5欢迎界面
+Route::get('/', function () {
+    return view('welcome');
+});
+
+// RAML2HTML接口描述文档
+Route::get('/doc', function(){
+            return view('doc.raml');
+});
+
