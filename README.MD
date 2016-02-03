@@ -86,9 +86,9 @@ Format Guide : text/template <https://gowalker.org/text/template>
 
 ## Tech Trees
 General Language:
-- [raml](raml.org)
-- [golang](golang.org)
-- [php](php.net)
+- [raml](http://raml.org)
+- [golang](http://golang.org)
+- [php](http://php.net)
 - regular expression
 
 Golang Package:
@@ -100,12 +100,13 @@ RESTful FrameWork:
 - [Laravel 5.2](laravel.com)
 
 Tools:
-- vim, vim-go
+- vim, vim-go(LiteIDE/Atom/etc. is OK)
 - linux, better Debian jessie 8.2 or newer
-- nginx 
+- nginx, best web server for destributing api server-end 
 
 Extra Skill:
-- shell
+- shell, do some nice trick
+- Shadowsocks/VPN, fuck the GFW
 - mysql 5.7+
 
 # Contributor
