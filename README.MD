@@ -62,18 +62,15 @@ FrameWork Main Features:
 - [ ] Zip up the output project files to .zip/.tar.gz
 
 Laravel5.2:
-- [x] raml.Resourse.Methods(),生成基础app/Http/route.php，包括uri部分以及同时根据注释生成的方法名
+- [x] route.php Head & Resource Methods Generating from raml.Resourse.Methods()
 
-- [ ] route.php实现auth规则及MiddleWare规则
+- [ ] route.php Group/MiddleWare Generating such as Auth/Login/etc.
 
-- [ ] raml.Resourse,生成基础app/Http/Controllers/xxx/xxxController.php，包括文件引用部分及空函数
+- [ ] Controllers Generating such as Dictionaries "app/Http/Controllers/xxx/xxx.php"
 
-- [ ] 根据type生成Models基础模型
+- [ ] Models Generation from raml.type
 
 # Changelog
-
-- 修复生成genFile时，不存在目录问题(MkdirAll/Remove连用生成所需目录)
-
 
 # Contributing
 ## Guide
